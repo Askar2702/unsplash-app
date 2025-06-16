@@ -1,0 +1,11 @@
+.photo-page-bg {
+  background: url("/Bg_Photo.jpg") center/cover no-repeat;
+  min-height: 100vh;
+}
+
+/* На мобильных — фон убираем */
+@media (max-width: 575.98px) {
+  .photo-page-bg {
+    background: none !important;
+  }
+}
